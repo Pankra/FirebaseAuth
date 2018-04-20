@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FirebaseAuth</string>
+    <string name="phone">phone</string>
+    <string name="auth">Auth</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_code">Confirm code</string>
 </resources>

@@ -7,6 +7,45 @@
     tools:context=".MainActivity"
     >
 
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:padding="16dp"
+        />
+
+    <Button
+        android:id="@+id/auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/phone"
+        android:text="@string/auth"
+        />
+
+    <EditText
+        android:id="@+id/confirmCode"
+        android:layout_below="@id/auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_code"
+        android:inputType="number"
+        android:padding="16dp"
+        />
+
+    <Button
+        android:id="@+id/codeConfirmBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/confirmCode"
+        android:text="@string/confirm"
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
